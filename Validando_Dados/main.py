@@ -1,6 +1,10 @@
-from datas_br import DatasBr
-from datetime import datetime
+from acesso_cep import BuscaEndereco
+import requests
 
-cadastro = DatasBr()
-data_formatada = cadastro.format_data()
-print(cadastro)
+
+cep = 89220370
+
+objeto_cep = BuscaEndereco(cep)
+bairro, cidade, uf = objeto_cep.acessa_via_cep()
+print(bairro, cidade, uf)
+
