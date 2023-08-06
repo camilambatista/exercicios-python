@@ -1,7 +1,6 @@
-from telefones_br import TelefonesBr
+from datas_br import DatasBr
+from datetime import datetime
 
-telefone = "554799686072"
-
-telefone_objeto = TelefonesBr(telefone)
-
-print(telefone_objeto)
+cadastro = DatasBr()
+data_formatada = cadastro.format_data()
+print(cadastro)
