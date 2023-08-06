@@ -1,7 +1,7 @@
-from cpf_cnpj import Documento
+from telefones_br import TelefonesBr
 
+telefone = "554799686072"
 
-documento = Documento.cria_documento("117.667.25929")
+telefone_objeto = TelefonesBr(telefone)
 
-print(documento)
-
+print(telefone_objeto)
