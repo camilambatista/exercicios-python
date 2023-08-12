@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+botteams/__init__.py
+botteams/__main__.py
+botteams/bot.py
+botteams.egg-info/PKG-INFO
+botteams.egg-info/SOURCES.txt
+botteams.egg-info/dependency_links.txt
+botteams.egg-info/requires.txt
+botteams.egg-info/top_level.txt
+botteams/resources/start.png
